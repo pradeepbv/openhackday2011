@@ -11,7 +11,7 @@
 			
 			(function(){
 				
-				var webWorker = new Worker('work.js');
+				var webWorker = new Worker('scripts/work.js');
 				webWorker.onmessage = function(evt) {
 					document.body.innerHTML += "<div>Message from worker thread: " + evt.data + "</div>";
 				};

@@ -1,6 +1,6 @@
 var end=1e8,tmp=1;
 
-postMessage('start to count down from ' + end);
+postMessage('starting to count down from 1e8');
 
 while(end) {
 	
